@@ -64,9 +64,10 @@
     display: block;
     width: 570px;
     height: 355px;
+    width: 100%;
 }
-
-
+ 
+/* our plants section */
 .our-plants{
     margin-top: 120px;
 }
@@ -91,8 +92,8 @@
 }
 
 .flower-cards img{
-    width: 270px;
-    height: 322px;
+    width: 200px;
+    height: 250px;
 }
 
 .flower-cards img{
@@ -111,7 +112,7 @@
 
 .btn{
     margin: 30px 0px;
-    width: 270px;
+    width: 200px;
     height: 50px;
     color: white;
     background-color: #E95A08;
@@ -119,3 +120,37 @@
     font-weight: 600;
     border: none;
 }
+
+/* responsive design for iphone 14 and 15 pro-max */
+ @media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse; 
+        margin:0 auto; 
+        align-items: center;
+    }
+
+    .banner-left h2, .banner-left p{
+        margin-left: 15px;
+    }
+
+    .heading p, .heading h3{
+        margin-right: 15px;
+    }
+
+    .banner-right img{
+        width: 100%;
+    }
+
+    .links ul li{
+        display: none;
+    }
+
+    .all-cards{
+         grid-template-columns:repeat(2, 1fr);
+    }
+
+    .heading{
+    text-align: center;
+    margin-left: 20px;
+    }
+ }
