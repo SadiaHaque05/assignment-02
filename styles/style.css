@@ -282,7 +282,7 @@
     font-weight: 600;
 }
 
-.btn{
+.placeholder-btn{
     margin: 0px 0px;
     width: 186px;
     height: 50px;
@@ -353,7 +353,6 @@
     color: black;
     font-weight: 400;
     font-size: 1rem;
-   
    }
 
     .banner-left h2,
@@ -423,8 +422,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        
-        
     }
 
    .img-01, .img-02, .img-03{
