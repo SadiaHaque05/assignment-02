@@ -220,15 +220,23 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: none;
     mix-blend-mode: multiply;
     filter: contrast(2);
 }
 
 .centered-text p{
-    text-decoration: underline;
+    text-decoration: underline; 
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.centered-text p{
+    font-weight: 700;
+    font-size: 1.5rem;
 }
  
+
+/* join section */
 .join-section{
     width: 100%;
     height: auto;
@@ -246,8 +254,8 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-     mix-blend-mode: multiply;
-    filter: contrast(2)
+    mix-blend-mode: multiply;
+    filter: contrast(2);
     
 } 
 
@@ -267,8 +275,11 @@
     width: 600px;
     height: 50px;
     padding: 8px 20px 8px 20px;
-    background-color: rgb(125, 63, 40);
+    mix-blend-mode: multiply;
+    filter: contrast(2);
     color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .btn{
@@ -276,8 +287,8 @@
     width: 186px;
     height: 50px;
     color: white;
-    background-color: #E95A08;
-    font-size: 1rem;
+    background-color: #7d4422;
+    font-size: 1.5rem;
     font-weight: 600;
     border: none;
 } 
@@ -316,7 +327,7 @@
     gap: 25px;
 }
 
-/* responsive design for iphone 14 and 15 pro-max */
+ /* responsive design for iphone 14 and 15 pro-max */
 @media screen and (max-width:576px) {
     .banner {
         flex-direction: column-reverse;
@@ -455,11 +466,15 @@
     .placeholder input{
     width: 300px;
     height: 50px;
+    font-size: 1rem;
+    font-weight: 900;
     }
 
     .placeholder .btn{
         width: 100px;
         height: 50px;
+        font-size: 1rem;
+        font-weight: 300;
     } 
 
     .footer{
